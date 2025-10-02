@@ -1,4 +1,4 @@
-# *Proyecto Final CinemaToronja*
+# *Proyecto Final Algoritmia y Programación*
 ## *Cinema Toronja*
 
 ### Integrantes
