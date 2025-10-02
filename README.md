@@ -11,3 +11,4 @@
 ### Vinculos Academicos y Descripción
 * Sara Trujillo
 >*  Estudiantes de Pregrado, Futura Ingeniera Industrial de la Universidad de Antioquia. Tengo habilidades y fortalezas en 
+
