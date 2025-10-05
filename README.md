@@ -1,5 +1,5 @@
 # *Proyecto Final Algoritmia y Programación*
-## *Cinema Toronja*
+## *Cine Universitario Cinema Toronja*
 
 ### Integrantes
 *  Sara Trujillo Berrocal
