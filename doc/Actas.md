@@ -1,7 +1,7 @@
 # Acta de Entrega 
-**Curso Algoritmia y Programacion**
-**Facultad de Ingeniería**
-**Universidad de Antioquia**
+**Curso Algoritmia y Programacion** <br>
+**Facultad de Ingeniería** <br>
+**Universidad de Antioquia** <br>
 
 **Integrantes del Equipo:**
 >*  Miguel Angel Gil Ciro
