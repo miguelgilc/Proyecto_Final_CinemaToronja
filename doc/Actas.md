@@ -16,7 +16,7 @@ En la reunión realizada por el grupo, se definieron los siguientes acuerdos, co
 *  Construir aprendizajes que sean útiles a futuro, de modo que los conceptos trabajados en este proyecto puedan reutilizarse en escenarios profesionales o académicos más adelante.
 
 ### Objetivos Individuales.
-*  **Miguel Ángel Gil Ciro:** <br>
+*  **Miguel Angel Gil Ciro:** <br>
 Espera que este proyecto le ayude a consolidar sus bases en programación, con miras a relacionarlas en un futuro con problemas de optimización y análisis más avanzados.
 *  **Mario Chaparro Falla:** <br>
 Su interés está en aprender los fundamentos de la programación de manera práctica, para que estas bases le faciliten el camino en temas como el curso de *“Simulación Discreta”*.
@@ -44,13 +44,13 @@ C.C.: 1.036.252.964
 **Sara Trujillo Berrocal** <br>
 C.C.: 1.023.629.901
 
-<img src="https://github.com/user-attachments/assets/67a4a572-ffec-4ea5-a71c-102a1e8d6774" alt="Firma de Sara" width="320"/>
+<img src="https://github.com/user-attachments/assets/67a4a572-ffec-4ea5-a71c-102a1e8d6774" alt="Firma de Sara" width="310"/>
 
 
 **Mario Fernando Chaparro Falla** <br>
 C.C.:
 
-<img src="https://github.com/user-attachments/assets/9fc9d2d5-141b-4398-a0f9-f1d9f12d1b70" alt="Firma de Sara" width="320"/>
+<img src="https://github.com/user-attachments/assets/9fc9d2d5-141b-4398-a0f9-f1d9f12d1b70" alt="Firma de Sara" width="330"/>
 
 
 
