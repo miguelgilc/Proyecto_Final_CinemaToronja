@@ -41,19 +41,20 @@ El grupo se compromete a asistir a las monitorías ofrecidas en el curso cuando 
 ## Firmas de los Integrantes
 Con nuestras firmas, certificamos la veracidad de esta declaración y asumimos la responsabilidad plena por el contenido de la presentación.
 
-**Miguel Angel Gil Ciro
-C.C.: 1.036.252.964** 
+**Miguel Angel Gil Ciro**
+**C.C.: 1.036.252.964** 
 
 <img width="832" height="450" alt="image" src="https://github.com/user-attachments/assets/87bcbc17-39e9-491a-bf50-549377bda058" />
 
-**Sara Trujillo Berrocal
-C.C.: 1.023.629.901**
+**Sara Trujillo Berrocal**
+**C.C.: 1.023.629.901**
 
 <img width="679" height="415" alt="image" src="https://github.com/user-attachments/assets/9fc9d2d5-141b-4398-a0f9-f1d9f12d1b70" />
 
-**Mario Fernando Chaparro Falla
-C.C.:**
+**Mario Fernando Chaparro Falla**
+**C.C.:**
 
+<img width="679" height="415" alt="image" src="https://github.com/user-attachments/assets/9fc9d2d5-141b-4398-a0f9-f1d9f12d1b70" />
 
 
 
