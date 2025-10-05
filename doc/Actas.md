@@ -1,4 +1,4 @@
-# Acta de Entrega 
+# Actas de Entrega 
 **Curso Algoritmia y Programacion** <br>
 **Facultad de Ingeniería** <br>
 **Universidad de Antioquia** <br>
