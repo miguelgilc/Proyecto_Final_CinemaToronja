@@ -12,7 +12,7 @@ En la reunión realizada por el grupo, se definieron los siguientes acuerdos, co
 ### Objetivos Comunes.
 *  Fortalecer nuestro pensamiento algorítmico y lógico, a través del diseño y la programación de un sistema de gestión para un cinema, aplicando las herramientas vistas en clase.
 *  Poner en práctica los conocimientos adquiridos en el curso, integrando estructuras de datos, ciclos, funciones y manejo de objetos para lograr una solución funcional y útil
-*   omentar el trabajo colaborativo y la responsabilidad compartida, asegurando que todos participemos activamente tanto en la construcción del proyecto como en la revisión de los entregables.
+*  Fomentar el trabajo colaborativo y la responsabilidad compartida, asegurando que todos participemos activamente tanto en la construcción del proyecto como en la revisión de los entregables.
 *  Construir aprendizajes que sean útiles a futuro, de modo que los conceptos trabajados en este proyecto puedan reutilizarse en escenarios profesionales o académicos más adelante.
 
 ### Objetivos Individuales.
@@ -48,7 +48,7 @@ C.C.: 1.023.629.901
 
 
 **Mario Fernando Chaparro Falla** <br>
-C.C.:
+C.C.: 1.107.976.384
 
 <img src="https://github.com/user-attachments/assets/9fc9d2d5-141b-4398-a0f9-f1d9f12d1b70" alt="Firma de Sara" width="330"/>
 
