@@ -17,7 +17,7 @@ En la reunión realizada por el grupo, se definieron los siguientes acuerdos, co
 
 ### Objetivos Individuales.
 *  **Miguel Angel Gil Ciro:** <br>
-Espera que este proyecto le ayude a consolidar sus bases en programación, con miras a relacionarlas en un futuro con problemas de optimización y análisis más avanzados.
+Espera que este proyecto le ayude a consolidar sus bases en programación, con miras a relacionarlas en un futuro con problemas de optimización y análisis más avanzados. De manera personal, también le interesa explorar la programación aplicada a la música, con la idea de aprender a crear software y herramientas que puedan integrarse en procesos musicales, tanto para la composición como para la producción.
 *  **Mario Chaparro Falla:** <br>
 Su interés está en aprender los fundamentos de la programación de manera práctica, para que estas bases le faciliten el camino en temas como el curso de *“Simulación Discreta”*.
 *  **Sara Trujillo Berrocal:** <br>
