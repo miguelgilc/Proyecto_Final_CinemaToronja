@@ -90,5 +90,9 @@ Distribución de horas por persona
 
 
 #### Cronograma (Diagrama de Gantt)
+Horizonte: 3 semanas. Puede ajustarse a las fechas específicas del curso. 
+
+<img width="930" height="461" alt="image" src="https://github.com/user-attachments/assets/033eac26-c7e2-437e-928f-e8f8542c9532" />
+
 #### Presupuesto del Proyecto
 
