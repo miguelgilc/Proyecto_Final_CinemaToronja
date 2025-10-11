@@ -24,13 +24,33 @@ Su principal fortaleza es la paciencia, cualidad que le permite afrontar desafí
 Lo conforman diferentes habilidades y destrezas, cada día trata de mejorar en la parte técnica de su carrera, intenta ser más disciplinado, auténtico, audaz y cumplir todo lo que se propone.
 
 ### Nombre del Proyecto y Detalles
-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Nuestro proyecto adopta el nombre de **Cinema Toronja**, un espacio inspirado en la combinación entre la creatividad y la frescura, tal como su nombre lo sugiere.  
+El *Cinema Toronja* representa la esencia de un cine universitario que busca ofrecer una experiencia cercana, organizada y amigable para la comunidad académica de la **Universidad de Antioquia**.
+
+El nombre simboliza la idea de un lugar vibrante, donde convergen la cultura, el arte y la tecnología, reflejando el equilibrio entre academia y la sensibilidad del cine.
+
+![Logo Cinema Toronja](https://github.com/user-attachments/assets/846f1718-9991-4d42-8803-ca6c26f774af)
+
+**Cinema Toronja** es más que un sistema de reservas; es una propuesta para fortalecer la vida cultural universitaria, facilitando la gestión de funciones, boletos y usuarios mediante un software desarrollado por estudiantes de Ingeniería Industrial
 
 ### Licencia
 <a href="https://github.com/miguelgilc/Proyecto_Final_CinemaToronja">Cinema Toronja</a> © 2025 by <a href="https://github.com/miguelgilc">Miguel Angel Gil Ciro</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
 
 ### Reporte de Visión
----------------------------------SARA----------------------------------------
+[9:43 p. m., 10/10/2025] Amorcito: Al desarrollar nuestro Cinema-Toronja queremos un sistema que permita administrar de manera eficiente las funciones,  venta de boletos, reduciendo el uso de procesos manuales y errores humanos, mediante una interfaz amigable y accesible.
+
+
+Promover la cultura cinematográfica en la universidad:
+Ofrecer una plataforma que incentive la asistencia a las funciones. especialmente, la del cine colombiano con funciones ilustrativas y educativas.
+[9:44 p. m., 10/10/2025] Amorcito: 💡 Beneficios del software
+
+Accesibilidad: el sistema permite a cualquier usuario de la comunidad universitaria acceder a la información desde cualquier dispositivo.
+
+
+
+Sostenibilidad: disminuye el uso de papel al digitalizar boletos y registros.
+
+Participación cultural: incentiva el consumo de cine y la interacción entre diferentes estamentos de la universidad.
 
 ### Especificación de Requisitos
 #### Requerimientos Funcionales:
@@ -126,6 +146,7 @@ Tres estudiantes **Sara**, **Mario** y **Miguel** invierten un total de **50 hor
 | **A10. Presentación** | 1 | 2% | 0.02 |
 | **Total** | **50** | **100%** | **1.00** |
 
+##### Distribución por estudiante
 Si se reparte en partes iguales, cada integrante aporta aproximadamente ***16–17 horas***, equivalentes a ***0.33 SMLV por persona***.  
 En caso de distribuir por actividad, cada estudiante recibiría la fracción de SMLV asociada a las tareas en las que participó como responsable o apoyo.
 
