@@ -7,7 +7,7 @@
 *  Miguel Angel Gil Ciro
 >* *Aficionado de los videojuegos, delirios de violinsita, le gusta el son y los boleros.*
 * Mario Fernando Chaparro
->*  *Fufa ibaguereñita*
+>*  *Ingeniero nato en proceso, muy buen bartender, le gusta el deporte y los videojuegos, ejemplo de un excelente macho.*
 
 ### Vinculos Academicos y Descripción
 * Sara Trujillo Berrocal
@@ -64,7 +64,7 @@ Nuestro Cine también contempla una serie de requisitos no funcionales que estab
 
 ### Plan de Proyecto
 #### Descripción de las Actividades
-El equipo está conformado por Sara Trujillo Berrocal, Mario [Apellido] y Miguel Ángel Gil Ciro.
+El equipo está conformado por Sara Trujillo Berrocal, Mario Fernando Chaparro Falla y Miguel Ángel Gil Ciro.
 En total, se estima una dedicación de 50 horas de práctica distribuidas entre los tres integrantes.
 
 A continuación, se listan las principales actividades del proyecto junto con el responsable principal y los apoyos correspondientes:
@@ -109,4 +109,20 @@ Horizonte: 3 semanas. Puede ajustarse a las fechas específicas del curso.
 | **A10** |  |  | Sí (Sara) |
 
 #### Presupuesto del Proyecto
+El proyecto no se remunera en dinero, sino en **tiempo de práctica de formación**.  
+Tres estudiantes **Sara**, **Mario** y **Miguel** invierten un total de **50 horas**, valoradas en su conjunto como **1 SMLV (Salario Mínimo Legal Vigente)**.
+
+| **Actividad** | **Horas** | **% del Proyecto** | **Valor (SMLV)** |
+|:--------------|:----------:|:------------------:|:----------------:|
+| **A1. Planeación** | 4 | 8% | 0.08 |
+| **A2. Requisitos** | 6 | 12% | 0.12 |
+| **A3. Diseño** | 6 | 12% | 0.12 |
+| **A4. Entorno / Repositorio** | 3 | 6% | 0.06 |
+| **A5. Núcleo del sistema** | 10 | 20% | 0.20 |
+| **A6. Reservas / Ventas** | 8 | 16% | 0.16 |
+| **A7. Reportes** | 4 | 8% | 0.08 |
+| **A8. Pruebas y ajustes** | 5 | 10% | 0.10 |
+| **A9. Documentación** | 3 | 6% | 0.06 |
+| **A10. Presentación** | 1 | 2% | 0.02 |
+| **Total** | **50** | **100%** | **1.00** |
 
