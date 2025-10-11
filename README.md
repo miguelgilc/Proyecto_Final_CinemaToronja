@@ -126,3 +126,6 @@ Tres estudiantes **Sara**, **Mario** y **Miguel** invierten un total de **50 hor
 | **A10. Presentación** | 1 | 2% | 0.02 |
 | **Total** | **50** | **100%** | **1.00** |
 
+Si se reparte en partes iguales, cada integrante aporta aproximadamente ***16–17 horas***, equivalentes a ***0.33 SMLV por persona***.  
+En caso de distribuir por actividad, cada estudiante recibiría la fracción de SMLV asociada a las tareas en las que participó como responsable o apoyo.
+
