@@ -94,5 +94,19 @@ Horizonte: 3 semanas. Puede ajustarse a las fechas específicas del curso.
 
 <img width="930" height="461" alt="image" src="https://github.com/user-attachments/assets/033eac26-c7e2-437e-928f-e8f8542c9532" />
 
+>Resumen por semanas:<
+| **Tarea** | **Semana 1** | **Semana 2** | **Semana 3** |
+|:----------:|:-------------:|:-------------:|:-------------:|
+| **A1** | Sí (Miguel) |  |  |
+| **A2** | Sí (Sara) |  |  |
+| **A3** | Sí (Mario) |  |  |
+| **A4** | Sí (Miguel) |  |  |
+| **A5** |  | Sí (Miguel & Mario) |  |
+| **A6** |  | Sí (Sara) |  |
+| **A7** |  |  | Sí (Mario) |
+| **A8** |  |  | Sí (Todos) |
+| **A9** |  |  | Sí (Sara) |
+| **A10** |  |  | Sí (Sara) |
+
 #### Presupuesto del Proyecto
 
