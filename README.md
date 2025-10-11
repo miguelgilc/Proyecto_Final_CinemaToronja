@@ -7,7 +7,7 @@
 *  Miguel Angel Gil Ciro
 >* *Aficionado de los videojuegos, delirios de violinsita, le gusta el son y los boleros.*
 * Mario Fernando Chaparro
->*  **
+>*  *Fufa ibaguereñita*
 
 ### Vinculos Academicos y Descripción
 * Sara Trujillo Berrocal
