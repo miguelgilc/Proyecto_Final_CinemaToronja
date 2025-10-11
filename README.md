@@ -34,6 +34,20 @@ Lo conforman diferentes habilidades y destrezas, cada día trata de mejorar en l
 
 ### Especificación de Requisitos
 #### Requerimientos Funcionales:
+Nuestro Cine Universitario **“Cinema Toronja”** contará con un conjunto de requisitos funcionales que definen las acciones, comportamientos y operaciones que el software debe ejecutar para satisfacer las necesidades del usuario final.
+Estos requisitos permitiran garantizar el correcto funcionamiento del sistema, la gestión eficiente de la información y una experiencia fluida para los distintos tipos de usuarios.
+
+1. **Gestión de usuarios y perfiles:** Permitir registrar y administrar usuarios con distintos niveles de acceso, tales como administrador y taquilla, garantizando el control de privilegios y la seguridad del sistema.
+2. **Catálogo y cartelera:** Registrar las películas con su información básica (nombre, duración, género, clasificación, sinopsis, etc.) y mantener una cartelera vigente y clara para el público.
+3. **Programación de funciones:** Definir las funciones por sala, día y horario, evitando conflictos de programación y asegurando el cumplimiento del aforo y la correcta asignación de asientos.
+4. **Consulta de disponibilidad:** Mostrar de manera visual e intuitiva las funciones disponibles, los horarios y el número de asientos libres, permitiendo al usuario seleccionar su asiento.
+5. **Reservas y ventas:** Permitir a los usuarios reservar y comprar entradas, así como confirmar, modificar o cancelar sus reservas de acuerdo con sus necesidades.
+6. **Pagos y comprobantes:** Registrar los pagos realizados por los usuarios y generar comprobantes o facturas con los datos esenciales de cada transacción.
+7. **Promociones y precios:** Aplicar descuentos según el tipo de usuario (estudiantes, docentes, administrativos, oficiales internos o público externo) y reflejar el valor actualizado en el total a pagar.
+8. **Reportes básicos:** Generar reportes automáticos sobre asistencia, ventas e ingresos por periodo, película o sala, disponibles en el módulo de administración para la toma de decisiones.
+9. **Comunicación interna:** Mostrar mensajes claros y oportunos para el usuario, tales como alertas de error, confirmaciones o notificaciones sobre disponibilidad y transacciones.
+10. **Gestión de datos:** Almacenar y conservar los registros de usuarios, cartelera, funciones, reservas y ventas en una base de datos local o archivo plano (CSV), permitiendo su consulta y seguimiento.
+    
 #### Requerimientos no Funcionales:
 
 ### Plan de Proyecto
