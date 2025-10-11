@@ -27,32 +27,32 @@ Lo conforman diferentes habilidades y destrezas, cada día trata de mejorar en l
 Nuestro proyecto adopta el nombre de **Cinema Toronja**, un espacio inspirado en la combinación entre la creatividad y la frescura, tal como su nombre lo sugiere.  
 El *Cinema Toronja* representa la esencia de un cine universitario que busca ofrecer una experiencia cercana, organizada y amigable para la comunidad académica de la **Universidad de Antioquia**.
 
-El nombre simboliza la idea de un lugar vibrante, donde convergen la cultura, el arte y la tecnología, reflejando el equilibrio entre academia y la sensibilidad del cine.
+El nombre simboliza la idea de un lugar vibrante, donde convergen la cultura, el arte y la tecnología, reflejando el equilibrio entre la academia y la sensibilidad del cine.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/846f1718-9991-4d42-8803-ca6c26f774af" alt="Logo Cinema Toronja" width="400"/>
 </p>
 
-**Cinema Toronja** es más que un sistema de reservas; es una propuesta para fortalecer la vida cultural universitaria, facilitando la gestión de funciones, boletos y usuarios mediante un software desarrollado por estudiantes de Ingeniería Industrial
+**Cinema Toronja** es más que un sistema de reservas; es una propuesta para fortalecer la vida cultural universitaria, facilitando la gestión de funciones, boletos y usuarios mediante un software desarrollado por estudiantes de Ingeniería Industrial.
 
 ### Licencia
 <a href="https://github.com/miguelgilc/Proyecto_Final_CinemaToronja">Cinema Toronja</a> © 2025 by <a href="https://github.com/miguelgilc">Miguel Angel Gil Ciro</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
 
 ### Reporte de Visión
-[9:43 p. m., 10/10/2025] Amorcito: Al desarrollar nuestro Cinema-Toronja queremos un sistema que permita administrar de manera eficiente las funciones,  venta de boletos, reduciendo el uso de procesos manuales y errores humanos, mediante una interfaz amigable y accesible.
+El proyecto Cinema Toronja surge como una propuesta para modernizar la gestión del cine universitario en la Universidad de Antioquia.
+Su objetivo principal es desarrollar un sistema que permita administrar de manera eficiente las funciones y la venta de boletos, reduciendo el uso de procesos manuales y los errores humanos, a través de una interfaz amigable, intuitiva y accesible.
 
+Además, el proyecto busca promover la cultura cinematográfica dentro de la universidad, incentivando la asistencia a las funciones —en especial aquellas dedicadas al cine colombiano— y fortaleciendo la formación cultural mediante funciones ilustrativas y educativas.
+De esta manera, Cinema Toronja se convierte en un punto de encuentro entre la tecnología, el arte y la comunidad universitaria.
 
-Promover la cultura cinematográfica en la universidad:
-Ofrecer una plataforma que incentive la asistencia a las funciones. especialmente, la del cine colombiano con funciones ilustrativas y educativas.
-[9:44 p. m., 10/10/2025] Amorcito: 💡 Beneficios del software
+#### Beneficios del Software
+El sistema ofrece múltiples beneficios para la comunidad universitaria. En primer lugar, destaca por su accesibilidad, ya que permite a los usuarios consultar la cartelera, los horarios y la disponibilidad de funciones desde distintos dispositivos de manera ágil y clara.
+Asimismo, promueve la sostenibilidad, al reducir el uso de papel mediante la digitalización de boletos, comprobantes y registros administrativos.
 
-Accesibilidad: el sistema permite a cualquier usuario de la comunidad universitaria acceder a la información desde cualquier dispositivo.
+En términos de eficiencia operativa, el software optimiza los procesos de reserva, pago y control de funciones, facilitando la labor del personal encargado y garantizando una gestión más ordenada.
+También impulsa la participación cultural, al fomentar el interés por el cine y la interacción entre estudiantes, docentes y personal administrativo, fortaleciendo así el sentido de pertenencia universitaria.
 
-
-
-Sostenibilidad: disminuye el uso de papel al digitalizar boletos y registros.
-
-Participación cultural: incentiva el consumo de cine y la interacción entre diferentes estamentos de la universidad.
+Finalmente, representa una apuesta por la innovación educativa, al demostrar cómo la ingeniería puede integrarse con la cultura y las artes para generar soluciones prácticas y significativas dentro del entorno académico.
 
 ### Especificación de Requisitos
 #### Requerimientos Funcionales:
@@ -148,7 +148,7 @@ Tres estudiantes **Sara**, **Mario** y **Miguel** invierten un total de **50 hor
 | **A10. Presentación** | 1 | 2% | 0.02 |
 | **Total** | **50** | **100%** | **1.00** |
 
-##### Distribución por estudiante
+##### Distribución de horas por persona
 Si se reparte en partes iguales, cada integrante aporta aproximadamente ***16–17 horas***, equivalentes a ***0.33 SMLV por persona***.  
 En caso de distribuir por actividad, cada estudiante recibiría la fracción de SMLV asociada a las tareas en las que participó como responsable o apoyo.
 
