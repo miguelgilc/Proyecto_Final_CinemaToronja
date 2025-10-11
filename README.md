@@ -1,16 +1,23 @@
-# *Proyecto Final Algoritmia y Programación*
-## *Cine Universitario Cinema Toronja*
+# **Proyecto Final Algoritmia y Programación**
+## **Cine Universitario Cinema Toronja**
 
 ### Integrantes
 *  Sara Trujillo Berrocal
->*  Estudiante de Ingeneiria Industrial, me gustan los gatos
+>*  
 *  Miguel Angel Gil Ciro
->* Me
+>* Fanatico de la Música,
 * Mario Fernando Chaparro
+>* 
 
 ### Vinculos Academicos y Descripción
-* Sara Trujillo
->*  Estudiantes de Pregrado, Futura Ingeniera Industrial de la Universidad de Antioquia. Tengo habilidades y fortalezas en 
+* Sara Trujillo Berrocal
+>*  Estudiante de la Facultad de Ingeniería, cursa el programa de Ingeniería Industrial y actualmente se encuentra en quinto semestre. Posee una marcada disposición para el aprendizaje autónomo y una notable curiosidad intelectual, cualidades que le permiten profundizar en los temas que estudia y establecer conexiones entre conceptos de distintas áreas del conocimiento.
+Se destaca por su responsabilidad, constancia y actitud reflexiva frente a los desafíos, demostrando una sólida capacidad para adaptarse y superar dificultades. Es una persona creativa, persistente y perseverante en el logro de sus metas, con una visión analítica que complementa su carácter propositivo e innovador.
+Su compromiso y deseo de crecimiento la convierten en una estudiante íntegra, con alto potencial para el trabajo en equipo y el liderazgo.
+
+* Miguel Angel Gil Ciro
+>* Estudiante de pregrado del quinto semestre del programa de Ingeniería Industrial en la Universidad de Antioquia. Se caracteriza por su creatividad y por un marcado interés en el aprendizaje constante. Además de su formación académica, es músico y forma parte de la Estudiantina Universitaria de la Universidad de Antioquia, donde combina disciplina, sensibilidad artística y trabajo en equipo.
+Su principal fortaleza es la paciencia, cualidad que le permite afrontar desafíos con serenidad y perseverancia. Es una persona organizada, comprometida y con una profunda motivación por inspirar a otros para alcanzar metas comunes. Su curiosidad y afición por explorar nuevas áreas del conocimiento reflejan su deseo de crecer tanto personal como profesionalmente.
 
 ### Licencia
 
