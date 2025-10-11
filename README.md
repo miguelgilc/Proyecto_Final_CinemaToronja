@@ -83,6 +83,12 @@ A continuación, se listan las principales actividades del proyecto junto con el
 | **A10** | Presentación y demostración | Sara | Miguel, Mario | 1 |
 | **Total** |  |  |  | **50 h** |
 
+Distribución de horas por persona 
+-	Miguel: 16.25 h (A1:2, A2:2, A3:1, A4:2, A5:4, A6:2, A7:1, A8:2, A10:0.25) 
+-	Sara: 17.00 h (A1:1, A2:3, A3:2, A5:2, A6:4, A7:0.5, A8:2, A9:2, A10:0.5) 
+-	Mario: 16.75 h (A1:1, A2:1, A3:3, A4:1, A5:4, A6:2, A7:2.5, A8:1, A9:1, A10:0.25) 
+
+
 #### Cronograma (Diagrama de Gantt)
 #### Presupuesto del Proyecto
 
