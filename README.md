@@ -5,9 +5,10 @@
 *  Sara Trujillo Berrocal
 >*  
 *  Miguel Angel Gil Ciro
->* Fanatico de la Música,
+>* Aficionado de la Música, los videojuegos, el son y los boleros.
+
 * Mario Fernando Chaparro
->* 
+>*  
 
 ### Vinculos Academicos y Descripción
 * Sara Trujillo Berrocal
@@ -18,6 +19,9 @@ Su compromiso y deseo de crecimiento la convierten en una estudiante íntegra, c
 * Miguel Angel Gil Ciro
 >* Estudiante de pregrado del quinto semestre del programa de Ingeniería Industrial en la Universidad de Antioquia. Se caracteriza por su creatividad y por un marcado interés en el aprendizaje constante. Además de su formación académica, es músico y forma parte de la Estudiantina Universitaria de la Universidad de Antioquia, donde combina disciplina, sensibilidad artística y trabajo en equipo.
 Su principal fortaleza es la paciencia, cualidad que le permite afrontar desafíos con serenidad y perseverancia. Es una persona organizada, comprometida y con una profunda motivación por inspirar a otros para alcanzar metas comunes. Su curiosidad y afición por explorar nuevas áreas del conocimiento reflejan su deseo de crecer tanto personal como profesionalmente.
+
+* Mario Fernando Chaparro Falla
+>* 
 
 ### Licencia
 <a href="https://github.com/miguelgilc/Proyecto_Final_CinemaToronja">Cinema Toronja</a> © 2025 by <a href="https://github.com/miguelgilc">Miguel Angel Gil Ciro</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
