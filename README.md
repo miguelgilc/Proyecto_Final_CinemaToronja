@@ -29,6 +29,8 @@ El *Cinema Toronja* representa la esencia de un cine universitario que busca ofr
 
 El nombre simboliza la idea de un lugar vibrante, donde convergen la cultura, el arte y la tecnología, reflejando el equilibrio entre academia y la sensibilidad del cine.
 
+<img src="https://github.com/user-attachments/assets/846f1718-9991-4d42-8803-ca6c26f774af" alt="Logo Cinema Toronja" width="400"/>
+
 ![Logo Cinema Toronja](https://github.com/user-attachments/assets/846f1718-9991-4d42-8803-ca6c26f774af)
 
 **Cinema Toronja** es más que un sistema de reservas; es una propuesta para fortalecer la vida cultural universitaria, facilitando la gestión de funciones, boletos y usuarios mediante un software desarrollado por estudiantes de Ingeniería Industrial
