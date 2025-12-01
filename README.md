@@ -106,30 +106,32 @@ A continuación, se listan las principales actividades del proyecto junto con el
 | **Total** |  |  |  | **50 h** |
 
 Distribución de horas por persona 
--	Miguel: 16.25 h (A1:2, A2:2, A3:1, A4:2, A5:4, A6:2, A7:1, A8:2, A10:0.25) 
--	Sara: 17.00 h (A1:1, A2:3, A3:2, A5:2, A6:4, A7:0.5, A8:2, A9:2, A10:0.5) 
--	Mario: 16.75 h (A1:1, A2:1, A3:3, A4:1, A5:4, A6:2, A7:2.5, A8:1, A9:1, A10:0.25) 
+- Miguel: 16.92 h (A1:1.96, A3:1.96, A4:2.94, A5:4.90, A6:1.96, A7:0.98, A8:1.96, A10:0.26)
+- Sara: 16.66 h (A1:0.98, A2:2.94, A3:1.96, A5:1.96, A6:3.92, A7:0.49, A8:1.96, A9:1.96, A10:0.49)
+- Mario: 16.42 h (A1:0.98, A2:0.98, A3:2.94, A4:0.98, A5:3.92, A6:1.96, A7:2.45, A8:0.98, A9:0.98, A10:0.25)
 
+**Para un Total de:** 16.92 + 16.66 + 16.42 = **50 horas**
 
 #### Cronograma (Diagrama de Gantt)
 Horizonte: 16 semanas. Puede ajustarse a las fechas específicas del curso. 
 
-<img width="930" height="461" alt="image" src="https://github.com/user-attachments/assets/7a3ca073-3b96-4754-85ea-2f11c9ba1ba7" />
-
+<img width="930" height="461" alt="image" src="https://github.com/user-attachments/assets/e28a5f02-a341-4a3a-90bd-c089230d107e" />
 
 ***Resumen por semanas:*** <br>
-| **Tarea** | **Semana 1** | **Semana 2** | **Semana 3** |
-|:----------:|:-------------:|:-------------:|:-------------:|
-| **A1** | Sí (Miguel) |  |  |
-| **A2** | Sí (Sara) |  |  |
-| **A3** | Sí (Mario) |  |  |
-| **A4** | Sí (Miguel) |  |  |
-| **A5** |  | Sí (Miguel & Mario) |  |
-| **A6** |  | Sí (Sara) |  |
-| **A7** |  |  | Sí (Mario) |
-| **A8** |  |  | Sí (Todos) |
-| **A9** |  |  | Sí (Sara) |
-| **A10** |  |  | Sí (Sara) |
+
+| **Tarea** | **Semana 1** | **Semana 2** | **Semana 3** | **Semana 4** | **Semana 5** | **Semana 6** | **Semana 7** | **Semana 8** | **Semana 9** | **Semana 10** | **Semana 11** | **Semana 12** | **Semana 13** | **Semana 14** | **Semana 15** | **Semana 16** |
+|:--------:|:------------:|:------------:|:------------:|:------------:|:------------:|:------------:|:------------:|:------------:|:------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
+| **A1** | Sí (Miguel & Sara) |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| **A2** |  | Sí (Sara & Mario) | Sí (Sara & Mario) |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| **A3** |  |  | Sí (Mario & Miguel) | Sí (Mario & Sara) |  |  |  |  |  |  |  |  |  |  |  |  |
+| **A4** |  |  |  | Sí (Miguel) |  |  |  |  |  |  |  |  |  |  |  |  |
+| **A5** |  |  |  |  | Sí (Mario & Miguel) | Sí (Todos) | Sí (Todos) | Sí (Todos) |  |  |  |  |  |  |  |  |
+| **A6** |  |  |  |  |  |  |  | Sí (Sara) | Sí (Sara & Miguel) | Sí (Sara & Miguel) | Sí (Sara & Mario) |  |  |  |  |  |
+| **A7** |  |  |  |  |  |  |  |  |  |  | Sí (Mario) | Sí (Mario & Sara) |  |  |  |  |
+| **A8** |  |  |  |  |  |  |  |  |  |  |  | Sí (Todos) | Sí (Todos) |  |  |  |
+| **A9** |  |  |  |  |  |  |  |  |  |  |  |  |  | Sí (Sara) | Sí (Sara & Mario) |  |
+| **A10** |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | Sí (Todos) |
+
 
 #### Presupuesto del Proyecto
 El proyecto no se va a remunerar en dinero, sino en **tiempo de práctica de formación**.  
