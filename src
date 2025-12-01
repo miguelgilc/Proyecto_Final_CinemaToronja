@@ -242,7 +242,7 @@ def menu_admin(estadisticas):
                 if d[1] != "admin": #tipo de usuario
                     usuarios_normales[u] = d
                     #se separa los usuarios de que no son tipo admin para guardarlos en usuarios normales
-                    #
+                    
             if len(usuarios_normales) > 0:
                 max_usuario = ""
                 max_reservas_count = -1
