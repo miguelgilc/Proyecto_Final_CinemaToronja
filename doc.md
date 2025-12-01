@@ -391,10 +391,10 @@ Exporta todas las reservas activas a un archivo CSV.
 
 **Estructura del archivo CSV:**
 ```csv
-documento,nombre,apellido,vinculo,valor,pelicula,asiento
-DOC0001,soloverde,apellido,estudiante,7500,La estrategia del caracol,45
-DOC0002,juliangrisales,apellido,estudiante,7500,El abrazo de la serpiente,60
-DOC0003,zelda_2,apellido,docente,10000,María llena eres de gracia,30
+reserva,usuario,vinculo,valor,pelicula,asiento
+Reserva_1,soloverde,estudiante,7500,La estrategia del caracol,45
+Reserva_2,juliangrisales,estudiante,7500,El abrazo de la serpiente,60
+Reserva_3,zelda_2,docente,10000,María llena eres de gracia,30
 ```
 
 **Si no hay reservas:**
