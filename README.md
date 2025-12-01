@@ -112,9 +112,10 @@ Distribución de horas por persona
 
 
 #### Cronograma (Diagrama de Gantt)
-Horizonte: 3 semanas. Puede ajustarse a las fechas específicas del curso. 
+Horizonte: 16 semanas. Puede ajustarse a las fechas específicas del curso. 
 
-<img width="930" height="461" alt="image" src="https://github.com/user-attachments/assets/033eac26-c7e2-437e-928f-e8f8542c9532" />
+<img width="930" height="461" alt="image" src="https://github.com/user-attachments/assets/7a3ca073-3b96-4754-85ea-2f11c9ba1ba7" />
+
 
 ***Resumen por semanas:*** <br>
 | **Tarea** | **Semana 1** | **Semana 2** | **Semana 3** |
@@ -131,8 +132,8 @@ Horizonte: 3 semanas. Puede ajustarse a las fechas específicas del curso.
 | **A10** |  |  | Sí (Sara) |
 
 #### Presupuesto del Proyecto
-El proyecto no se remunera en dinero, sino en **tiempo de práctica de formación**.  
-Tres estudiantes **Sara**, **Mario** y **Miguel** invierten un total de **50 horas**, valoradas en su conjunto como **1 SMLV (Salario Mínimo Legal Vigente)**.
+El proyecto no se va a remunerar en dinero, sino en **tiempo de práctica de formación**.  
+Tres estudiantes **Sara**, **Mario** y **Miguel** invierten un total de **50 horas** durante **16 semanas**, valoradas en su conjunto como **1 SMLV (Salario Mínimo Legal Vigente)**.
 
 | **Actividad** | **Horas** | **% del Proyecto** | **Valor (SMLV)** |
 |:--------------|:----------:|:------------------:|:----------------:|
@@ -148,7 +149,5 @@ Tres estudiantes **Sara**, **Mario** y **Miguel** invierten un total de **50 hor
 | **A10. Presentación** | 1 | 2% | 0.02 |
 | **Total** | **50** | **100%** | **1.00** |
 
-##### Distribución de horas por persona
-Si se reparte en partes iguales, cada integrante aporta aproximadamente ***16–17 horas***, equivalentes a ***0.33 SMLV por persona***.  
-En caso de distribuir por actividad, cada estudiante recibiría la fracción de SMLV asociada a las tareas en las que participó como responsable o apoyo.
+
 
