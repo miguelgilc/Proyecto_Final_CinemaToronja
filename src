@@ -252,7 +252,7 @@ def menu_admin(estadisticas):
                 for usuario in usuarios_normales.keys():
                     datos = usuarios_normales[usuario]
                     cantidad_reservas = len(datos[2])
-                    #accede a la parte de la lista abierta del primer diccionario
+                    #accede a la parte de la lista vacia del primer diccionario
 
                     #contadores de maximas reservas y min reservas
                     if cantidad_reservas > max_reservas_count:
