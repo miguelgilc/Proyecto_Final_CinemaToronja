@@ -1,1 +1,470 @@
 
+# dicionario de usuarios registrados
+#las listas abiertas es para guardar la reserva de usuario actual
+dicusuarios_registrados = {"us": ["123", "estudiante", []],
+                           "admin1": ["1234", "admin", []]}
+
+dicUsuariocontrasenia = {
+    "admin1": "1234",
+    "admin": "admin123"
+}
+#lista que contiene las peliculas en 5 diccionarios
+peliculas_disponibles = [
+    {"nombre": "La estrategia del caracol", "dia": "Sábado", "hora": "14:00"},
+    {"nombre": "El abrazo de la serpiente", "dia": "Sábado", "hora": "17:00"},
+    {"nombre": "María, llena eres de gracia", "dia": "Domingo", "hora": "13:00"},
+    {"nombre": "Rodrigo D: No futuro", "dia": "Domingo", "hora": "18:00"},
+    {"nombre": "La vendedora de rosas", "dia": "Domingo", "hora": "20:00"}
+]
+#diccionario que contiene la disponibilidad de las sillas
+sillas_peliculas = {
+    0: ["O"] * 121,
+    1: ["O"] * 121,
+    2: ["O"] * 121,
+    3: ["O"] * 121,
+    4: ["O"] * 121
+}
+#diccionario con los precios
+precios = {
+    "estudiante": 7500,
+    "docente": 10000,
+    "administrativo": 8500,
+    "oficial interno": 7000,
+    "publico externo": 15000
+}
+
+# validador de contraseña, codigo de clase:
+def ValidarUsuariocontrasenia(dic, usuario, contra):
+    if usuario in dic.keys():
+        contrasenia = dic[usuario]
+        if contra == contrasenia:
+            return True
+        else:
+            return False
+    else:
+        return False
+#Base de datos, codigo de clase
+def crearBD(nombre_archivo):
+    with open(nombre_archivo, "w", encoding="utf-8") as f:
+        f.write("reserva,usuario,vinculo,valor,pelicula,asiento\n")
+    return None
+#guardado de base de datos, codigo de clase
+def GuardarBD(nombre_archivo, dic):
+    for llave in list(dic.keys()):
+        texto = str(llave) + ","
+        valores = dic[llave]
+        for valor in valores:
+            texto += str(valor) + ","
+        texto = texto[:-1]
+        with open(nombre_archivo, "a", encoding="utf-8") as f:
+            f.write(texto + "\n")
+    return None
+
+def mostrar_peliculas():
+    print("\n--- PELÍCULAS DEL FIN DE SEMANA ---")
+    for i in range(len(peliculas_disponibles)):
+        pelicula = peliculas_disponibles[i]
+        sillas_disponibles = sillas_peliculas[i].count("O")
+        print(f"{i+1}. {pelicula['nombre']} - {pelicula['dia']} {pelicula['hora']} - Sillas disponibles: {sillas_disponibles}")
+    print()
+
+def mostrar_asientos(indice_pelicula):
+    print("\n--- LISTA DE ASIENTOS ---")
+    print("O = Disponible | X = Ocupado\n")
+    sillas = sillas_peliculas[indice_pelicula]
+
+    for fila in range(11):
+        inicio = fila * 11
+        fin = inicio + 11
+        asientos_fila = sillas[inicio:fin]
+
+        numeros = []
+        for i in range(inicio, min(fin, 121)):
+            numeros.append(str(i+1))
+
+        linea_numeros = ""
+        for num in numeros:
+            linea_numeros += f"{num:>3}  "
+        print(linea_numeros)
+
+        linea_asientos = ""
+        for asiento in asientos_fila:
+            linea_asientos += f" {asiento}   "
+        print(linea_asientos)
+        print()
+
+def facturacion(pelicula, asiento, precio_base, precio_final, descuento, usuario, tipo_vinculo):
+
+    print("------------------FACTURA - CINEMA TORONJA---------------------------")
+    print(f"Usuario: {usuario}")
+    print(f"Tipo de vínculo: {tipo_vinculo}")
+    print(f"Película: {pelicula}")
+    print(f"Asiento: {asiento}")
+    print(f"Precio base: ${precio_base:,}")
+    print(f"Total a pagar: ${precio_final:,}")
+    print("="*50)
+    print("Disfruta la función.\n")
+#funcion de elegir pelicula
+def elegir_pelicula(opcion_pelicula, usuario_actual, nombre_usuario,
+                    apellido_usuario, documento_usuario, dicRegistro, estadisticas):
+
+    if opcion_pelicula.isdigit() and 1 <= int(opcion_pelicula) <= len(peliculas_disponibles): #isdigit para que el usuario solo ingrese numeros
+        indice = int(opcion_pelicula) - 1
+        pelicula_elegida = peliculas_disponibles[indice]["nombre"]
+
+        print(f"\nPelícula seleccionada: {pelicula_elegida}")
+        print(f"Día: {peliculas_disponibles[indice]['dia']} - Hora: {peliculas_disponibles[indice]['hora']}")
+
+        mostrar_asientos(indice)
+
+        while True:
+            asiento = input("Ingresa el número de asiento que deseas (1-121): ")
+
+            if asiento.isdigit() and 1 <= int(asiento) <= 121:
+                num_asiento = int(asiento) - 1
+
+                if sillas_peliculas[indice][num_asiento] == "O":
+                    sillas_peliculas[indice][num_asiento] = "X"
+
+                    tipo_vinculo = dicusuarios_registrados[usuario_actual][1]
+                    precio_base = precios[tipo_vinculo]
+
+
+                    precio_final = precio_base
+                    descuento = 0 #le quite el descuento por de parte de la universidad
+
+                    dicusuarios_registrados[usuario_actual][2].append((pelicula_elegida, asiento, precio_final))
+
+                    dicRegistro[documento_usuario] = [nombre_usuario, apellido_usuario, tipo_vinculo,
+                                                     precio_final, pelicula_elegida, asiento]
+
+                    estadisticas['reservas'] += 1
+                    estadisticas['ventas'] += precio_final
+
+                    facturacion(pelicula_elegida, asiento, precio_base, precio_final,
+                              descuento, usuario_actual, tipo_vinculo)
+
+                    print("Reserva registrada")
+                    return True
+                else:
+                    print("Error: ese asiento ya está ocupado.")
+            else:
+                print("Error: ingresa un número de asiento válido (1-121).")
+    else:
+        print("\nOpción no válida")
+        return False
+#funcion de cancelar reserva
+def cancelar_reserva(usuario_actual, estadisticas):
+    reservas = dicusuarios_registrados[usuario_actual][2]
+
+    if len(reservas) == 0:
+        print("\nNo tienes reservas activas para cancelar.")
+
+    print("\n--- TUS RESERVAS ---")
+    for i in range(len(reservas)):
+        reserva = reservas[i]
+        print(f"{i+1}. {reserva[0]} - Asiento {reserva[1]} - ${reserva[2]:,}")
+
+    while True:
+        seleccion = input("\n¿Qué reserva deseas cancelar? (número): ")
+
+        if seleccion.isdigit() and 1 <= int(seleccion) <= len(reservas):
+            indice_cancelar = int(seleccion) - 1
+            reserva_cancelada = reservas[indice_cancelar]
+
+            for i in range(len(peliculas_disponibles)):
+                pelicula = peliculas_disponibles[i]
+                if pelicula["nombre"] == reserva_cancelada[0]:
+                    num_asiento = int(reserva_cancelada[1]) - 1
+                    sillas_peliculas[i][num_asiento] = "O"
+                    break
+
+            estadisticas['reservas'] -= 1
+            estadisticas['ventas'] -= reserva_cancelada[2]
+
+            reservas.pop(indice_cancelar) #elimina la reserva seleccionada
+
+            print(f"\nReserva cancelada")
+            print(f"Película: {reserva_cancelada[0]}")
+            print(f"Asiento: {reserva_cancelada[1]}")
+            print(f"Monto reembolsado: ${reserva_cancelada[2]:,}\n")
+
+            return True
+        else:
+            print("Error: selecciona un número válido.")
+#Menu del admin
+def menu_admin(estadisticas):
+    while True:
+        print("---------------MENÚ ADMIN----------------")
+
+        print("1. Total de reservas registradas")
+        print("2. Total de tiquetes vendidos")
+        print("3. Total de reservas realizadas")
+        print("4. Total pago realizado")
+        print("5. Promedio por venta diario del cine")
+        print("6. Lista de usuarios")
+        print("7. Usuario con mayor y menor cantidad de reservas")
+        print("8. Generar CSV con todas las reservas")
+        print("9. Cerrar sesión")
+
+        opcion_admin = input("\nSelecciona una opción: ")
+
+        if opcion_admin == "1":
+            print(f"\nTotal de reservas registradas: {estadisticas['reservas']}")
+
+        elif opcion_admin == "2":
+            print(f"\nTotal de tiquetes vendidos: {estadisticas['reservas']}")
+
+        elif opcion_admin == "3":
+            print(f"\nTotal de reservas realizadas: {estadisticas['reservas']}")
+
+        elif opcion_admin == "4":
+            print(f"\nTotal pago realizado: ${estadisticas['ventas']:,}")
+
+        elif opcion_admin == "5":
+            if estadisticas['reservas'] > 0:
+                promedio = estadisticas['ventas'] / 2
+                print(f"\nPromedio por venta diario: ${promedio:,}")
+            else:
+                print("\nNo hay ventas registradas aún.")
+
+        elif opcion_admin == "6":
+            print("\n--- LISTA DE USUARIOS ---")
+            for usuario in dicusuarios_registrados.keys():
+                datos = dicusuarios_registrados[usuario]
+                if datos[1] != "admin":
+                    print(f"Usuario: {usuario} | Tipo: {datos[1]} | Reservas: {len(datos[2])}")
+        #esta accedindo al dicusuarios_registrados  a traves de usuarios normales para solo tomar la primera columna (los usuarios predeterminados)
+        elif opcion_admin == "7":
+            usuarios_normales = {}
+            for u in dicusuarios_registrados.keys():
+                d = dicusuarios_registrados[u]
+                if d[1] != "admin": #tipo de usuario
+                    usuarios_normales[u] = d
+                    #se separa los usuarios de que no son tipo admin para guardarlos en usuarios normales
+                    #
+            if len(usuarios_normales) > 0:
+                max_usuario = ""
+                max_reservas_count = -1
+                min_usuario = ""
+                min_reservas_count = 999
+
+                for usuario in usuarios_normales.keys():
+                    datos = usuarios_normales[usuario]
+                    cantidad_reservas = len(datos[2])
+                    #accede a la parte de la lista abierta del primer diccionario
+
+                    #contadores de maximas reservas y min reservas
+                    if cantidad_reservas > max_reservas_count:
+                        max_reservas_count = cantidad_reservas
+                        max_usuario = usuario
+
+                    if cantidad_reservas < min_reservas_count:
+                        min_reservas_count = cantidad_reservas
+                        min_usuario = usuario
+
+                print(f"\nUsuario con mayor cantidad de reservas:")
+                print(f"  {max_usuario} con {max_reservas_count} reservas")
+
+                print(f"\nUsuario con menor cantidad de reservas:")
+                print(f"  {min_usuario} con {min_reservas_count} reservas")
+            else:
+                print("\nNo hay usuarios registrados aún.")
+
+        elif opcion_admin == "8":
+            # Generar CSV
+            dicRegistro_completo = {}
+            contador_registro = 1
+
+            for usuario in dicusuarios_registrados.keys():
+                datos = dicusuarios_registrados[usuario]
+                if datos[1] != "admin" and len(datos[2]) > 0:
+                    reservas = datos[2]
+                    for reserva in reservas:
+
+                        doc_key = f"Reserva_{contador_registro}"
+                        pelicula = reserva[0]
+                        asiento = reserva[1]
+                        precio = reserva[2]
+
+                        dicRegistro_completo[doc_key] = [usuario,
+                                                        datos[1], precio, pelicula, asiento]
+                        contador_registro += 1
+
+            if len(dicRegistro_completo) > 0:
+                nombre_archivo = "Reservas_Completas.csv"
+                crearBD(nombre_archivo)
+                GuardarBD(nombre_archivo, dicRegistro_completo)
+                print(f"\n✓ CSV generado exitosamente: {nombre_archivo}")
+                print(f"  Total de registros: {len(dicRegistro_completo)}")
+            else:
+                print("\nNo hay reservas para exportar.")
+
+        elif opcion_admin == "9":
+            print("\nCerrando sesión de administrador...")
+            return
+
+        else:
+            print("\nOpción no válida.")
+#menu usuario
+def menu_usuario(usuario_actual, estadisticas, dicRegistro):
+
+    documento_usuario_actual = f"{usuario_actual}"
+    nombre_usuario_actual = usuario_actual
+    apellido_usuario_actual = "Usuario"
+
+    while True:
+        print("----------------MENÚ PRINCIPAL-USUARIO------------------")
+        print("1. Consultar funciones del fin de semana")
+        print("2. Registrar reserva")
+        print("3. Cancelar reserva")
+        print("4. Cerrar sesión")
+
+        opcion_usuario = input("\nSelecciona una opción: ")
+
+        if opcion_usuario == "1":
+            mostrar_peliculas()
+
+        elif opcion_usuario == "2":
+            print("\n---Menu peliculas---")
+            mostrar_peliculas()
+
+            opcion_pelicula = input("Elige el número de la película que deseas ver: ")
+            elegir_pelicula(opcion_pelicula, usuario_actual,
+                          nombre_usuario_actual, apellido_usuario_actual,
+                          documento_usuario_actual, dicRegistro, estadisticas)
+
+        elif opcion_usuario == "3":
+            resultado = cancelar_reserva(usuario_actual, estadisticas)
+            if resultado == "reservar":
+                print("\n---Menu peliculas---")
+                mostrar_peliculas()
+                opcion_pelicula = input("Elige el número de la película que deseas ver: ")
+                elegir_pelicula(opcion_pelicula, usuario_actual,
+                              nombre_usuario_actual, apellido_usuario_actual,
+                              documento_usuario_actual, dicRegistro, estadisticas)
+
+        elif opcion_usuario == "4":
+            print("\nCerrando sesión...")
+            return
+
+        else:
+            print("\nOpción no válida.")
+#registro
+def registrar_usuario():
+    print("""-------------------------
+            MENÚ DE REGISTRO
+--------------------------------------""")
+    print("ingresa tus datos, esto solo tendras que hacerlo una vez :)\n")
+
+    while True:
+        nombre = input("Ingresa tu nombre --> ").strip().lower()
+        if len(nombre) >= 3 and nombre.replace(" ", "").isalpha():
+            break
+        else:
+            if len(nombre) < 3:
+                print("Error: el nombre debe tener al menos 3 letras.")
+            if not nombre.replace(" ", "").isalpha():
+                print("Error: el nombre solo debe contener letras.")
+
+    while True:
+        apellido = input("Ingresa tus apellidos --> ").strip().lower()
+        if len(apellido) >= 3 and apellido.replace(" ", "").isalpha():
+            break
+        else:
+            if len(apellido) < 3:
+                print("Error: los apellidos deben tener al menos 3 letras.")
+            if not apellido.replace(" ", "").isalpha():
+                print("Error: los apellidos solo deben contener letras.\n")
+
+    while True:
+        cedula = input("Ingresa el documento: ")
+        if cedula.isdigit() and 3 <= len(cedula) <= 15:
+            break
+        else:
+            print("Error: debe contener solo números y tener entre 3 y 15 dígitos.")
+
+    print(f"¡Hola {nombre}!")
+
+    print("\nSelecciona tu tipo de vínculo:")
+    print("1. Estudiante  $7500")
+    print("2. Docente  $10000")
+    print("3. Administrativo  $8500")
+    print("4. Oficial interno  $7000")
+    print("5. Público externo  $15000")
+
+    while True:
+        tipo_vinculo_opcion = input("Ingresa el número de tu tipo de vínculo: ")
+        if tipo_vinculo_opcion in ["1", "2", "3", "4", "5"]:
+            tipos = ["estudiante", "docente", "administrativo", "oficial interno", "publico externo"]
+            tipo_vinculo = tipos[int(tipo_vinculo_opcion) - 1]
+            break
+        else:
+            print("Error: selecciona una opción válida (1-5).")
+
+    print("Tipo de vínculo:", tipo_vinculo)
+
+    while True:
+        usuario = input("crear su usuario ----> ")
+        contrasenia = input("crear su contraseña ---> ")
+        if usuario in dicusuarios_registrados:
+            print("este usuario ya existe")
+        else:
+            dicusuarios_registrados[usuario] = [contrasenia, tipo_vinculo, []]
+            print(f"\n¡Usuario '{usuario}' creado exitosamente!")
+            print(f"Contraseña registrada.")
+            break
+
+#
+print("¡bienvenid@ a cinema Toronja! \n")
+
+
+estadisticas = {'reservas': 0, 'ventas': 0}
+dicRegistro = {}
+
+while True:
+
+    print("----------CINEMA TORONJA - MENÚ PRINCIPAL---------------")
+    print("1. Registrarme")
+    print("2. Iniciar sesión")
+    print("3. Salir.")
+
+    opcion = input("\nSelecciona una opción (1, 2 o 3): ")
+
+    if opcion == "1":
+        registrar_usuario()
+
+    elif opcion == "2":
+        print("""--------------------------
+ MENÚ DE INICIAR SESIÓN
+---------------------------------------""")
+
+        ingresar_usuario = input("ingrese su usuario----> ")
+        ingresar_contrasenia = input("ingresar su contraseña---> ")
+
+        if ingresar_usuario in dicusuarios_registrados:
+            usuario_x = dicusuarios_registrados[ingresar_usuario]
+            contrasenia_x = usuario_x[0]
+            tipo_x = usuario_x[1]
+
+            if ingresar_contrasenia == contrasenia_x:
+                if tipo_x == "admin":
+                    if ValidarUsuariocontrasenia(dicUsuariocontrasenia, ingresar_usuario, ingresar_contrasenia):
+                        print("Hola admin, te amo")
+                        menu_admin(estadisticas)
+                    else:
+                        print("Algo salió mal")
+                else:
+                    print(f"\n¡Bienvenido {ingresar_usuario}!")
+                    menu_usuario(ingresar_usuario, estadisticas, dicRegistro)
+            else:
+                print("Algo salió mal, contraseña o usuario incorrecto")
+        else:
+            print("Algo salió mal, usuario no encontrado")
+
+    elif opcion == "3":
+        print("\n¡Gracias por usar Cinema Toronja! Hasta pronto.")
+        break
+
+    else:
+        print("Error, por favor ingrese una opción válida.\n")
